@@ -3,8 +3,8 @@ import {expect} from 'chai';
 import {shallow} from 'enzyme';
 import {spy} from 'sinon';
 
-import SliderGroup from '../src/components/SliderGroup';
-import ColorSlider from '../src/components/ColorSlider';
+import SliderGroup from '../../src/components/SliderGroup';
+import ColorSlider from '../../src/components/ColorSlider';
 
 describe('SliderGroup component', () => {
 
@@ -43,7 +43,7 @@ describe('SliderGroup component', () => {
 
     it('invokes prop submitColor with array of color values when button clicked', () => {
 
-        const tryColorButton = shallow(group.find('button').nodes[0]);
+        const tryColorButton = group.find('button');
 
         tryColorButton.simulate('click');
 

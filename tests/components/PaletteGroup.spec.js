@@ -2,9 +2,9 @@ import React from 'react';
 import {expect} from 'chai';
 import {shallow} from 'enzyme';
 
-import PaletteGroup from '../src/components/PaletteGroup';
-import SliderGroup from '../src/components/SliderGroup';
-import Palette from '../src/components/Palette';
+import PaletteGroup from '../../src/components/PaletteGroup';
+import SliderGroup from '../../src/components/SliderGroup';
+import Palette from '../../src/components/Palette';
 
 describe('PaletteGroup component', () => {
 

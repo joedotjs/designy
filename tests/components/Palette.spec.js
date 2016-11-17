@@ -2,7 +2,7 @@ import React from 'react';
 import {expect} from 'chai';
 import {shallow} from 'enzyme';
 
-import Palette from '../src/components/Palette';
+import Palette from '../../src/components/Palette';
 
 describe('Palette component', () => {
 

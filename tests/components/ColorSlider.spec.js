@@ -3,7 +3,7 @@ import {expect} from 'chai';
 import {shallow} from 'enzyme';
 import {spy} from 'sinon';
 
-import ColorSlider from '../src/components/ColorSlider';
+import ColorSlider from '../../src/components/ColorSlider';
 
 describe('Palette component', () => {
 
