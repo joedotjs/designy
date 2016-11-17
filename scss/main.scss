@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear:both;
+  }
+}
+
+body {
+  font-family: "Helvetica Neue";
+  font-weight: 100;
+}
+
+h1 {
+  margin-left: 50px;
+  font-weight: 100;
+  clear: both;
+}
+
+.palette-group {
+
+  width: 33%;
+  padding: 0 5%;
+  float: left;
+
+  .slider-group {
+    width: 100%;
+    input, button {
+      display: block;
+      width: 100%;
+      padding: 10px 0;
+    }
+    button {
+      background: transparent;
+      border: 2px solid black;
+      margin: 0 auto;
+    }
+  }
+
+  .palette {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+}
+
+#save-button {
+  background: transparent;
+  display: block;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+  clear: both;
+}
+
+
+
